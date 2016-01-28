@@ -9,7 +9,7 @@
 include_once "conec.php";
 include_once "ConexionPGSQL.php";
 
-
+/*
 $conec = new conec();
 $usuario="postgres";
 $pass = "123456";
@@ -25,15 +25,17 @@ $persona=$conec->buscarPersona($miconect,1,"anny");
 
 print_r("<br />");
 print_r($persona);
+*/
+
 
 
 //instanciación de la clase conexión a postgresql.
-/*
+
 $conexion = new ConexionPGSQL();
 $conexion->conectar();
 if($conexion->conectar()==true){
     echo "conexion exitosa";
 }else {
     echo "no se pudo conectar";
-}*/
+}
 

@@ -15,6 +15,7 @@ class conec
             "host=".$host." ".
             "dbname=".$bd
         ) or die( "Error al conectar: ".pg_last_error() );
+
         return $conexion;
     }
 
